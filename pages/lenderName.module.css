@@ -1,0 +1,31 @@
+.heading {
+  display: flex;
+  flex: 1 1 50%;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  color: rgb(26, 23, 174, 0.74);
+  margin-top: 20px;
+  font-size: 25px;
+}
+.lenderForm {
+  display: flex;
+  flex: 1 50%;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  left: 50%;
+  top: 30px;
+  position: relative;
+  transform: translateX(-50%);
+  max-width: 260px;
+  box-shadow: 10px 10px 38px -16px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 38px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 38px -16px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.submitButton {
+  margin-top: 20px;
+}

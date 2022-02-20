@@ -21,6 +21,8 @@ export interface LenderFields {
   type: string;
   required: boolean;
   options?: Array<string>;
+  value?: any;
+  isInvalid?: boolean;
 }
 
 export interface LenderPostResponse {

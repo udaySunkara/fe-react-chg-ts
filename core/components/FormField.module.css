@@ -1,0 +1,9 @@
+.checkBox {
+  align-self: flex-start;
+}
+
+.checkBoxLabel {
+  color: rgba(0, 0, 0, 0.54);
+  margin-top: 20px;
+  font-size: 21px;
+}
